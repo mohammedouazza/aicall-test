@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(241, 245, 248);
+}
+#todo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    width: 90%;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(250, 245, 245);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+span {
+    opacity: 1;
+    flex: 2;
+}
+
+input {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#submitBtn {
+    cursor: pointer;
+    background-color: rgb(85, 85, 230);
+    border-color: rgb(54, 54, 224);
+    font-weight: 600;
+}
+
+ul {
+    width: 100%;
+    max-width: 100%;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    
+    margin-bottom: 16px;
+    padding-right: 50px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+#deleteBtn {
+    background-color: rgb(231, 62, 62);
+    border-color: rgb(231, 46, 46);
+}
+
+#editBtn {
+    background-color: rgb(245, 233, 66);
+    border-color: rgb(243, 230, 45);
+}

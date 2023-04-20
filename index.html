@@ -1,0 +1,24 @@
+<DOCTYPE html!>
+  <head>
+    <title>Ringover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="Stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/gif" href="https://webcdn.ringover.com/app/img/misc/logo_app_redoc.png" >
+  </head>
+
+  <body>
+    <div id="todo">
+      <h1>Welcome to Ringover TodoList.</h1>
+        <form id="taskForm" action="http://localh:9000/tasks" method="post">
+            <input id="taskId" type="hidden" value="0" name="id"/>
+            <input id="taskName" required type="text" placeholder="Ajouter une tâche..." name="name"/>
+            <input id="taskDate" required type="date" name="date" />
+            <input id="submitBtn" type="submit" value="Ajouter" />
+        </form>
+
+        <ul id="todoList">
+
+        </ul>
+    <script src="js/index.js"></script></body
+></DOCTYPE>
